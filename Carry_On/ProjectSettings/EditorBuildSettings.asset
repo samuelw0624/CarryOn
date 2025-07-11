@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PackingScene.unity
     guid: 88ef00ac7f000d445a39337297e4ec20
+  - enabled: 1
+    path: Assets/Scenes/NoteEditScene.unity
+    guid: aeabe9168aa90f241a1273b7348d0bbb
   m_configObjects: {}
