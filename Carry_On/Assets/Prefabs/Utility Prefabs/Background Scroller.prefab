@@ -46,4 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bg1: {fileID: 0}
   bg2: {fileID: 0}
-  scrollSpeed: 0.35
+  scrollSpeed: 0.1

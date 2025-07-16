@@ -20,7 +20,7 @@ public class TitleUI : MonoBehaviour
     RectTransform letterRect;
     Vector2 startPos;
     Vector2 targetPos;
-    float offsetValue = 150f;
+    float offsetValue = 160f;
 
     void Awake() {
         // Cache rect refs & positions

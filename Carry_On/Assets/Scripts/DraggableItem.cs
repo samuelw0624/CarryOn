@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(RectTransform))]
 [RequireComponent(typeof(PolygonCollider2D))]
@@ -21,8 +22,15 @@ public class DraggableItem : MonoBehaviour,
     Vector3 lastCasePos; bool hasCasePos;     // last valid suitcase spot
     bool dragStartedInCase;
 
+    /* ©¤©¤ glow effect ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
+    [SerializeField] Color glowRejectColor = new(0.753f, 0.188f, 0.188f, 1f); // red
+    [SerializeField] Color glowHoverColor = new Color(1f, 1f, 0f, 1f); // yellow
+    [SerializeField] Color glowAcceptColor = new(0f, 0f, 0f, 0f); // off
+    Material materialInstance;
+
     static readonly List<PolygonCollider2D> inSuitcase = new();
 
+    bool isDragging = false;
     /* ©¤©¤ setup ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     void Awake() {
         rt = GetComponent<RectTransform>();
@@ -35,30 +43,50 @@ public class DraggableItem : MonoBehaviour,
         spawnDeskPos = rt.position;         // remember factory spot
         lastDeskPos = spawnDeskPos;        // initial desk pos
         hasDeskPos = true;
+
+        var img = GetComponent<Image>();
+        if (img != null)
+            img.alphaHitTestMinimumThreshold = 0.1f; // Ignore transparent clicks
     }
     void Start() {
         if (tooltip == null)
             tooltip = FindObjectOfType<TooltipController>();
+
+        var img = GetComponent<Image>();
+        if (img != null && img.material != null) {
+            materialInstance = Instantiate(img.material); // unique per item
+            img.material = materialInstance;
+            SetGlow(glowAcceptColor);
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData) {
+        if (isDragging) return;
+
         if (tooltip && itemData != null)
             tooltip.ShowTooltip(itemData);
+        SetGlow(glowHoverColor);
     }
 
     public void OnPointerExit(PointerEventData eventData) {
         if (tooltip)
             tooltip.HideTooltip();
+        SetGlow(glowAcceptColor);
     }
 
 
     /* ©¤©¤ begin drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     public void OnBeginDrag(PointerEventData e) {
+        isDragging = true;
+
+        if (tooltip)
+            tooltip.HideTooltip(); // hide immediately if showing
+
         rt.SetAsLastSibling();              // always render on top
         inSuitcase.Remove(poly);            // will re-add if accepted
-        if (cg) cg.blocksRaycasts = false;
 
         dragStartedInCase = FullyInsideSuitcase();
+        SetGlow(glowAcceptColor);
     }
 
     /* ©¤©¤ during drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
@@ -67,11 +95,14 @@ public class DraggableItem : MonoBehaviour,
                 rt, e.position, e.pressEventCamera, out var world)) {
             rt.position = world;
         }
+
+        bool overlaps = OverlapsAnything();
+        SetGlow(overlaps ? glowRejectColor : glowAcceptColor);
     }
 
     /* ©¤©¤ end drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     public void OnEndDrag(PointerEventData e) {
-        if (cg) cg.blocksRaycasts = true;
+        isDragging = false;
 
         bool insideCase = FullyInsideSuitcase();
         bool overlaps = OverlapsAnything();
@@ -98,6 +129,8 @@ public class DraggableItem : MonoBehaviour,
         } else {   // fallback safety
             rt.position = spawnDeskPos;
         }
+
+        SetGlow(glowAcceptColor);
     }
 
     /* ©¤©¤ helper: inside suitcase? ©¤©¤©¤©¤©¤©¤©¤ */
@@ -127,5 +160,9 @@ public class DraggableItem : MonoBehaviour,
                 return true;
 
         return false;
+    }
+    void SetGlow(Color c) {
+        if (materialInstance != null)
+            materialInstance.SetColor("_GlowColor", c); // Make sure "_GlowColor" is the right property
     }
 }

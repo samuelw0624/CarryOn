@@ -46,4 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 0}
   proceedButton: {fileID: 0}
-  startSeconds: 300
+  startSeconds: 450
