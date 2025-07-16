@@ -20,12 +20,13 @@ public class TitleUI : MonoBehaviour
     RectTransform letterRect;
     Vector2 startPos;
     Vector2 targetPos;
+    float offsetValue = 150f;
 
     void Awake() {
         // Cache rect refs & positions
         letterRect = letterGroup.GetComponent<RectTransform>();
-        targetPos = letterRect.anchoredPosition + Vector2.up * Screen.height * 0.5f;               // expected (0,0)
-        startPos = letterRect.anchoredPosition; //Vector2.down * Screen.height * 0.5f;
+        targetPos = letterRect.anchoredPosition + new Vector2(0, offsetValue); // expected (0,0)
+        startPos = letterRect.anchoredPosition + new Vector2(0, -offsetValue) + Vector2.down * Screen.height * 0.5f;
         letterRect.anchoredPosition = startPos;
 
         // UI wiring

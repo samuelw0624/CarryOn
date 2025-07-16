@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NoteEditSpawner : MonoBehaviour {
+public class NoteEditItemSpawner : MonoBehaviour {
     public Transform suitcaseRoot; // The UI parent to spawn into
     public GameObject itemPrefab;  // Prefab with DraggableItem and visuals
 
