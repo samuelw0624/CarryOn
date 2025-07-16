@@ -25,7 +25,7 @@ public class TitleUI : MonoBehaviour
     void Awake() {
         // Cache rect refs & positions
         letterRect = letterGroup.GetComponent<RectTransform>();
-        targetPos = letterRect.anchoredPosition + new Vector2(0, offsetValue); // expected (0,0)
+        targetPos = letterRect.anchoredPosition + new Vector2(0, offsetValue);
         startPos = letterRect.anchoredPosition + new Vector2(0, -offsetValue) + Vector2.down * Screen.height * 0.5f;
         letterRect.anchoredPosition = startPos;
 
@@ -33,8 +33,6 @@ public class TitleUI : MonoBehaviour
         startButton.onClick.AddListener(() => StartCoroutine(PlayIntro()));
         continueButton.onClick.AddListener(
             () => SceneLoader.Instance.LoadScene("PackingScene"));
-
-        //continueButton.interactable = false;   // unlock after slide
     }
     IEnumerator PlayIntro() {
         // Disable the button so it can't be spam-clicked

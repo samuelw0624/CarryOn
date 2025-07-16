@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class VerticalScroll : MonoBehaviour {
+public class BackgroundScroll : MonoBehaviour {
     public Transform bg1;
     public Transform bg2;
     public float scrollSpeed = 1f;

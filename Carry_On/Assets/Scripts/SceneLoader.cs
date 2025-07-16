@@ -10,11 +10,19 @@ public class SceneLoader : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null) { Instance = this; DontDestroyOnLoad(gameObject); }
-        else { Destroy(gameObject); return; }
+        if (Instance == null) {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
 
-        if (fader != null) fader.alpha = 1;      // start black
-        StartCoroutine(Fade(0));                 // quick fade-in
+            if (fader != null)
+                DontDestroyOnLoad(fader.gameObject); // <- Important!
+        } else {
+            Destroy(gameObject);
+            return;
+        }
+
+        if (fader != null) fader.alpha = 1;
+        StartCoroutine(Fade(0));
     }
 
     public void LoadScene(string sceneName) => StartCoroutine(LoadRoutine(sceneName));
