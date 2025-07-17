@@ -88,6 +88,12 @@ public class PackingPhaseManager : MonoBehaviour {
             }
         }
 
+        foreach (var item in FindObjectsOfType<DraggableItem>()) {
+            if (item.FullyInsideSuitcase()) {
+                ItemPickTracker.RegisterPick(item.itemData);
+            }
+        }
+
         SuitcaseArchive.Instance?.SaveCurrentSuitcase(SuitcaseData.Instance.packedItems);
 
         // Disable drag, transition

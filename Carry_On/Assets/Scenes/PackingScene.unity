@@ -1294,6 +1294,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 809791722}
   allowDragging: 1
 --- !u!60 &59715856
@@ -2681,6 +2683,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1836151061}
   allowDragging: 1
 --- !u!60 &120514170
@@ -2956,6 +2960,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1312619220}
   allowDragging: 1
 --- !u!60 &137652204
@@ -3279,6 +3285,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1552456640}
   allowDragging: 1
 --- !u!60 &142243282
@@ -4085,6 +4093,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 635626364}
   allowDragging: 1
 --- !u!60 &159380405
@@ -4288,6 +4298,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1163996339}
   allowDragging: 1
 --- !u!60 &177744569
@@ -5092,6 +5104,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 268934941}
   allowDragging: 1
 --- !u!60 &202867456
@@ -5517,6 +5531,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1315421830}
   allowDragging: 1
 --- !u!60 &247596574
@@ -6330,6 +6346,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 486921555}
   allowDragging: 1
 --- !u!60 &278794506
@@ -6533,6 +6551,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 847593608}
   allowDragging: 1
 --- !u!60 &282638030
@@ -6983,6 +7003,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1175785176}
   allowDragging: 1
 --- !u!60 &308370279
@@ -7758,6 +7780,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1888345291}
   allowDragging: 1
 --- !u!60 &336098786
@@ -8081,6 +8105,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 800824230}
   allowDragging: 1
 --- !u!60 &361993373
@@ -8673,6 +8699,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1057221579}
   allowDragging: 1
 --- !u!60 &403158011
@@ -8893,6 +8921,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1846045943}
   allowDragging: 1
 --- !u!60 &403670610
@@ -9806,6 +9836,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1464417234}
   allowDragging: 1
 --- !u!60 &487996300
@@ -10050,6 +10082,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1435730917}
   allowDragging: 1
 --- !u!60 &489076675
@@ -10364,6 +10398,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1010910945}
   allowDragging: 1
 --- !u!60 &491975119
@@ -10533,6 +10569,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2000847453}
   allowDragging: 1
 --- !u!60 &498207960
@@ -10980,6 +11018,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1588772654}
   allowDragging: 1
 --- !u!60 &535424101
@@ -11186,6 +11226,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1224154947}
   allowDragging: 1
 --- !u!60 &539784481
@@ -11634,6 +11676,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1673153960}
   allowDragging: 1
 --- !u!60 &591694137
@@ -11837,6 +11881,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1967853721}
   allowDragging: 1
 --- !u!60 &593121289
@@ -12518,6 +12564,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 631817722}
   allowDragging: 1
 --- !u!60 &640940603
@@ -12965,6 +13013,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1497020622}
   allowDragging: 1
 --- !u!60 &647668812
@@ -13664,6 +13714,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 71019992}
   allowDragging: 1
 --- !u!60 &666904536
@@ -14227,6 +14279,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1149867277}
   allowDragging: 1
 --- !u!60 &692482355
@@ -14714,6 +14768,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2037515324}
   allowDragging: 1
 --- !u!60 &729926098
@@ -14879,6 +14935,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1909304972}
   allowDragging: 1
 --- !u!60 &742026808
@@ -15085,6 +15143,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 490437818}
   allowDragging: 1
 --- !u!60 &750906787
@@ -15652,6 +15712,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 371717030}
   allowDragging: 1
 --- !u!60 &780601801
@@ -16568,6 +16630,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1881788352}
   allowDragging: 1
 --- !u!60 &809849537
@@ -16813,6 +16877,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 436542713}
   allowDragging: 1
 --- !u!60 &821012215
@@ -17715,6 +17781,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 197524829}
   allowDragging: 1
 --- !u!60 &836615972
@@ -18029,6 +18097,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 349120743}
   allowDragging: 1
 --- !u!60 &877563634
@@ -18476,6 +18546,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 66276407}
   allowDragging: 1
 --- !u!60 &882120225
@@ -18688,6 +18760,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 918207118}
   allowDragging: 1
 --- !u!60 &896767195
@@ -18929,6 +19003,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2110086321}
   allowDragging: 1
 --- !u!60 &903949204
@@ -19452,6 +19528,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1104117086}
   allowDragging: 1
 --- !u!60 &936341579
@@ -19941,6 +20019,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 0}
   allowDragging: 1
 --- !u!60 &943234065
@@ -20579,6 +20659,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1614830142}
   allowDragging: 1
 --- !u!60 &969761113
@@ -22679,6 +22761,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 976273291}
   allowDragging: 1
 --- !u!60 &1093371958
@@ -23250,6 +23334,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1962416348}
   allowDragging: 1
 --- !u!60 &1111712558
@@ -25543,6 +25629,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 965659793}
   allowDragging: 1
 --- !u!60 &1290178693
@@ -26700,6 +26788,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1287158061}
   allowDragging: 1
 --- !u!60 &1316390810
@@ -26907,6 +26997,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1074519828}
   allowDragging: 1
 --- !u!60 &1321654984
@@ -27113,6 +27205,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1104153988}
   allowDragging: 1
 --- !u!60 &1334574712
@@ -27671,6 +27765,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1934314558}
   allowDragging: 1
 --- !u!60 &1392633815
@@ -27877,6 +27973,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2016461732}
   allowDragging: 1
 --- !u!60 &1407227766
@@ -28325,6 +28423,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1271694478}
   allowDragging: 1
 --- !u!60 &1421830671
@@ -29004,6 +29104,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 214410761}
   allowDragging: 1
 --- !u!60 &1439099678
@@ -29602,6 +29704,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 139109328}
   allowDragging: 1
 --- !u!1001 &1464417232
@@ -30373,6 +30477,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 144601088}
   allowDragging: 1
 --- !u!60 &1504451056
@@ -31786,6 +31892,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 222679333}
   allowDragging: 1
 --- !u!60 &1587458173
@@ -33433,6 +33541,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1265399375}
   allowDragging: 1
 --- !u!60 &1646441947
@@ -33991,6 +34101,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1227136683}
   allowDragging: 1
 --- !u!60 &1711195396
@@ -34234,6 +34346,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1918966952}
   allowDragging: 1
 --- !u!60 &1715527473
@@ -34510,6 +34624,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1866699713}
   allowDragging: 1
 --- !u!60 &1723320419
@@ -34720,6 +34836,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2097014478}
   allowDragging: 1
 --- !u!60 &1732453374
@@ -34923,6 +35041,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2099253531}
   allowDragging: 1
 --- !u!60 &1749174724
@@ -35131,6 +35251,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1715682723}
   allowDragging: 1
 --- !u!60 &1784951696
@@ -35337,6 +35459,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 947499585}
   allowDragging: 1
 --- !u!60 &1797048901
@@ -35542,6 +35666,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1158234293}
   allowDragging: 1
 --- !u!60 &1797685347
@@ -36078,6 +36204,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 673901003}
   allowDragging: 1
 --- !u!60 &1850082292
@@ -36396,6 +36524,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1529914134}
   allowDragging: 1
 --- !u!60 &1873463130
@@ -36954,6 +37084,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1051240053}
   allowDragging: 1
 --- !u!60 &1886373942
@@ -38978,6 +39110,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1846985904}
   allowDragging: 1
 --- !u!60 &1961742232
@@ -39649,6 +39783,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1179100687}
   allowDragging: 1
 --- !u!60 &1991541744
@@ -40215,6 +40351,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 991370055}
   allowDragging: 1
 --- !u!60 &2010995276
@@ -40529,6 +40667,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1430626897}
   allowDragging: 1
 --- !u!60 &2027543792
@@ -40774,6 +40914,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 1367874842}
   allowDragging: 1
 --- !u!60 &2029312602
@@ -41294,6 +41436,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 758656739}
   allowDragging: 1
 --- !u!60 &2065911845
@@ -42080,6 +42224,8 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.543
+  maxDragSpeed: 2000
   stickyNoteIcon: {fileID: 2135442587}
   allowDragging: 1
 --- !u!60 &2119499458
@@ -42611,6 +42757,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2208466835866879440, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2208466835866879440, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306316974406949769, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306316974406949769, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484033903233051039, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484033903233051039, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8305111732857129224, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
       propertyPath: m_Name
       value: TooltipPanel
@@ -42728,6 +42898,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941135658}
     m_Modifications:
+    - target: {fileID: 123309906494668066, guid: 2bac3ff4ad345df40ba19e19e4410c89, type: 3}
+      propertyPath: baseDragResistance
+      value: 0.834
+      objectReference: {fileID: 0}
     - target: {fileID: 148364629505349563, guid: 2bac3ff4ad345df40ba19e19e4410c89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -2821,6 +2821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TooltipPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 8305111732857129224, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8415786888280717107, guid: 283cee0d095b318489a01231d17e0ea5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

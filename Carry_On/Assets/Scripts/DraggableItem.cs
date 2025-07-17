@@ -28,6 +28,13 @@ public class DraggableItem : MonoBehaviour,
     [SerializeField] Color glowAcceptColor = new(0f, 0f, 0f, 0f); // off
     Material materialInstance;
 
+    [Header("Drag Settings")]
+    [Range(0f, 1f)]
+    [SerializeField] float baseDragResistance = 0.2f; // starting resistance
+    public float maxDragSpeed = 2000f; // tweak this
+
+    float dragResistance; // actual runtime value, adjusted per item
+
     /* ©¤©¤ note attachment ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     [SerializeField] private GameObject stickyNoteIcon;
     private bool hasNote = false;
@@ -72,6 +79,10 @@ public class DraggableItem : MonoBehaviour,
             materialInstance.SetColor("_GlowColor", glowAcceptColor); // apply initial color
         }
 
+        int picks = ItemPickTracker.GetPickCount(itemData);
+        float extraResistance = Mathf.Clamp01(picks * 0.05f); // adjust scale as needed
+        dragResistance = Mathf.Clamp(baseDragResistance + extraResistance, 0f, 0.95f);
+
         if (stickyNoteIcon != null)
             stickyNoteIcon.SetActive(false);
     }
@@ -111,9 +122,12 @@ public class DraggableItem : MonoBehaviour,
     /* ©¤©¤ during drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     public void OnDrag(PointerEventData e) {
         if (!allowDragging) return;
+
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(
-                rt, e.position, e.pressEventCamera, out var world)) {
-            rt.position = world;
+        rt, e.position, e.pressEventCamera, out var world)) {
+
+            float speed = maxDragSpeed * (1f - dragResistance); // dragResistance=1 ¡ú speed=0
+            rt.position = Vector3.MoveTowards(rt.position, world, speed * Time.deltaTime);
         }
 
         bool overlaps = OverlapsAnything();

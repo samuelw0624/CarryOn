@@ -6,4 +6,7 @@ public class ItemDef : ScriptableObject {
     [TextArea] public string noteA;
     [TextArea] public string noteB;
     [TextArea] public string noteC;
+
+    public int pickCount = 0;
+    public string ItemID => name;
 }
