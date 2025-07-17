@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
-  m_Name: RiceCooker
+  m_Name: Water Bottle
   m_EditorClassIdentifier: 
   itemName: 
-  description: Steam-stained lid from years of shared dinners.
-  noteA: This fed three generations without ever breaking.
-  noteB: My first time abroad I had to hand cook rice in milk pot, then my mom sent
-    me a cooker.
+  description: Stay Hydrated.
+  noteA: This and packet of tissues always comes in handy on a trip!
+  noteB: Mine is with me everywhere
   noteC: Add your thoughts...

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Self care is the best care.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: This weirdly reminds me of proxy buying makeup from airport tax free?
+  noteB: my mom always stressed that UV is worst on airplanes, this will occupy my
+    mind.
   noteC: Add your thoughts...

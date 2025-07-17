@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Last buck spent on my schooling.
-  noteA: Add your thoughts..
-  noteB: Add your thoughts..
+  noteA: 'My bear was too expensive so I bring it out of spite :) '
+  noteB: As someone proud of my achievements it feels nice to have it around.
   noteC: Add your thoughts..

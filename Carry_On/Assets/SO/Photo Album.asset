@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Rarely flipped but filled with important faces.
-  noteA: Some faces here I only remember because of these pictures.
-  noteB: Add your thoughts...
+  noteA: There are photos of my family, my friends and my dog.
+  noteB: I fill them with new photos during summer and take them with me to school
+    abroad.
   noteC: Add your thoughts...

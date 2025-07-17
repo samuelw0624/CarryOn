@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Bought it at the airport. Any good?
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: I used to read a lot on airplanes and trips, we are so distracted by phones
+    now.
+  noteB: I had Hunger Games with me during a flight because it was homework
   noteC: Add your thoughts...

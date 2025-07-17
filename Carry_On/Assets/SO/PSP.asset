@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Saw the world through that screen.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: "This was one of the consoles I could bring outside and connect play with
+    other people\t"
+  noteB: I love visual novel games and will always bring a PSP with me.
   noteC: Add your thoughts...

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: My bestie have the same one.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: I remember considering these so important as a child.
+  noteB: I have a pendant with my dog's fur, I know he misses me as much as I miss
+    him
   noteC: Add your thoughts...

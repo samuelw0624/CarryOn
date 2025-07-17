@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Good old daily poison.
-  noteA: 
-  noteB: 
-  noteC: 
+  noteA: "Tim Hortons coffee is too weak, support local please\t"
+  noteB: I really do want to bring Tims to where I go..
+  noteC: Add your thoughts..

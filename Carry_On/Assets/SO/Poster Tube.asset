@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: 'Protect posters from harm. '
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: In my room, I always have a wall for just posters, it reminds me of who
+    i am
+  noteB: I've been folding posters for trips but tube is definitely a new good idea?
   noteC: Add your thoughts...

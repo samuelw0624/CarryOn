@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Instant memories.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: I have this one polaroid kept close, it's taken with a friend that I walked
+    to school everyday.
+  noteB: I accidentally got one of these through security xray once..
   noteC: Add your thoughts...
