@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Memories old and new.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: I spent a year looking for the right cards for this set, its too important
+    now
+  noteB: I have some lucky (and beautiful) pokemon cards to take with me
   noteC: Add your thoughts...

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Provides warmth and anonymity.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: I don't like hats but in new places i hide my face under it
+  noteB: I had a hat since I was a baby. It fitted on me until 5. I still bring it
+    around.
   noteC: Add your thoughts...

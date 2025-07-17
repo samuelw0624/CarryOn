@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Definitely not the first deck you bought.
-  noteA: "Won this in a game I totally should\u2019ve lost."
-  noteB: Add your thoughts...
+  noteA: "Won this in a game I totally should\u2019ve lost, taking it as good luck."
+  noteB: I enjoy poker or blackjack without betting money
   noteC: Add your thoughts...

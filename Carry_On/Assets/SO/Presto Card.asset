@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: Now this one probably doesn't work there.
-  noteA: Add your thoughts...
-  noteB: Add your thoughts...
+  noteA: I love/hate that you can use credit cards now. I miss using these.
+  noteB: public transport makes up most part of my life and I learned to be more
+    perceptive.
   noteC: Add your thoughts...
