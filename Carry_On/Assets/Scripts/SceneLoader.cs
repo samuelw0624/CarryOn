@@ -6,7 +6,7 @@ public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance;
     [SerializeField] CanvasGroup fader;
-    [SerializeField] float       fadeDuration = 0.5f;
+    [SerializeField] float fadeDuration = 0.5f;
 
     void Awake()
     {

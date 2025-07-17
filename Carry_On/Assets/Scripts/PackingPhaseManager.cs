@@ -83,6 +83,9 @@ public class PackingPhaseManager : MonoBehaviour {
                 SuitcaseData.Instance.packedItems.Add(packed);
             }
         }
+
+        SuitcaseArchive.Instance?.SaveCurrentSuitcase(SuitcaseData.Instance.packedItems);
+
         // Disable drag, transition
         foreach (var drag in FindObjectsOfType<DraggableItem>())
             drag.enabled = false;
