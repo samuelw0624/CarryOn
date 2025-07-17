@@ -11,6 +11,7 @@ public class NoteEditItemSpawner : MonoBehaviour {
 
             // Apply local position relative to suitcase
             rt.anchoredPosition = packed.localposition;
+            rt.sizeDelta = packed.sizeDelta;
 
             // Assign item data
             var di = go.GetComponent<DraggableItem>();
@@ -20,7 +21,6 @@ public class NoteEditItemSpawner : MonoBehaviour {
             var img = go.GetComponent<UnityEngine.UI.Image>();
             if (img != null && packed.sprite != null) {
                 img.sprite = packed.sprite;
-                img.SetNativeSize(); //This ensures correct aspect and scale
             }
         }
     }

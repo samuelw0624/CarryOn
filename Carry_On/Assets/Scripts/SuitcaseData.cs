@@ -6,6 +6,8 @@ public class PackedItem {
     public ItemDef itemDef;
     public Vector3 localposition; // world or local depending on setup
     public Sprite sprite;
+
+    public Vector2 sizeDelta;
 }
 
 public class SuitcaseData : MonoBehaviour {

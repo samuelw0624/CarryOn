@@ -302,8 +302,6 @@ GameObject:
   - component: {fileID: 7036833537560086901}
   - component: {fileID: 6949076415266276569}
   - component: {fileID: 1024760926120583696}
-  - component: {fileID: 5653105992759103267}
-  - component: {fileID: 85313060187163779}
   m_Layer: 5
   m_Name: StickyNote
   m_TagString: Untagged
@@ -328,7 +326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230, y: 12}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 264.8, y: 254.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8762195011270304088
@@ -394,37 +392,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &5653105992759103267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4005722101716739000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38644bfd01c76404b937b0aed431da45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 7036833537560086901}
-  inputFieldImage: {fileID: 8994262292841715441}
-  inputField: {fileID: 1037075272191673995}
-  inputText: {fileID: 6218469428111168110}
-  noteSprites: []
-  fontOptions: []
---- !u!114 &85313060187163779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4005722101716739000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 949f522d69e386c499cb3b331ebd804a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 0}
 --- !u!1 &5233788454960088037
 GameObject:
   m_ObjectHideFlags: 0

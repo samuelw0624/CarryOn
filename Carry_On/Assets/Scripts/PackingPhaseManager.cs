@@ -70,16 +70,21 @@ public class PackingPhaseManager : MonoBehaviour {
 
         foreach (var item in FindObjectsOfType<DraggableItem>()) {
             if (item.FullyInsideSuitcase()) {
+                RectTransform itemRect = item.GetComponent<RectTransform>();
+
                 var packed = new PackedItem {
                     itemDef = item.itemData,
-                    localposition = suitcase.transform.InverseTransformPoint(item.transform.position), // or localPosition if inside a layout
-                    sprite = item.GetComponent<UnityEngine.UI.Image>().sprite
+                    localposition = suitcase.transform.InverseTransformPoint(item.transform.position),
+                    sprite = item.GetComponent<UnityEngine.UI.Image>().sprite,
+
+                    sizeDelta = itemRect.sizeDelta
                 };
+
                 SuitcaseData.Instance.packedItems.Add(packed);
             }
         }
-            // Disable drag, transition
-            foreach (var drag in FindObjectsOfType<DraggableItem>())
+        // Disable drag, transition
+        foreach (var drag in FindObjectsOfType<DraggableItem>())
             drag.enabled = false;
 
         proceedButton.interactable = false;

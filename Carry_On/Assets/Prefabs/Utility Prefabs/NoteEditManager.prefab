@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5579995568374336176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097029880816795576}
+  - component: {fileID: 1057673586534229674}
+  - component: {fileID: 2964620095329839079}
+  m_Layer: 0
+  m_Name: NoteEditManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097029880816795576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5579995568374336176}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1057673586534229674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5579995568374336176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3bd19cff23edb4fa2169dc84f1b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suitcaseRoot: {fileID: 0}
+  itemPrefab: {fileID: 7818211687334012003, guid: ffd78f8b7b8ff6f468b78fb7760e3a01, type: 3}
+--- !u!114 &2964620095329839079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5579995568374336176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ef3de77724e324ea2acbda486c1840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickyNotePrefab: {fileID: 4005722101716739000, guid: be5addebcf8ae8d46af5a54160a67ee6, type: 3}
+  canvasRoot: {fileID: 0}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  noteSprites:
+  - {fileID: 21300000, guid: 3639f5f9fd79add4cac2ef18497249d1, type: 3}
+  - {fileID: 21300000, guid: 9c8fd1ca6a1bd9c4693d6a6934f2730c, type: 3}
+  - {fileID: 21300000, guid: 87f0bd7eaca9a314b86b35a28903e12e, type: 3}
+  - {fileID: 21300000, guid: ac841f9d6bf21234aab52f3244e78349, type: 3}
+  - {fileID: 21300000, guid: d9640f889e85c544990fe91b3c2a4c96, type: 3}
+  fontOptions:
+  - {fileID: 11400000, guid: 2c7ccec2de5147c42aaa23f0bd86df4c, type: 2}
+  - {fileID: 11400000, guid: 9d6e040e86f74734baa8c1d8f6409b86, type: 2}
+  - {fileID: 11400000, guid: 67a14a70c84e11c4282599d6a31d23c2, type: 2}
+  readyToBoardButton: {fileID: 0}
+  totalNotes: 5

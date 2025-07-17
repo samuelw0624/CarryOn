@@ -28,9 +28,14 @@ public class DraggableItem : MonoBehaviour,
     [SerializeField] Color glowAcceptColor = new(0f, 0f, 0f, 0f); // off
     Material materialInstance;
 
-    static readonly List<PolygonCollider2D> inSuitcase = new();
+    /* ©¤©¤ note attachment ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
+    [SerializeField] private GameObject stickyNoteIcon;
+    private bool hasNote = false;
 
+    static readonly List<PolygonCollider2D> inSuitcase = new();
     bool isDragging = false;
+    public bool allowDragging = true;
+
     /* ©¤©¤ setup ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     void Awake() {
         rt = GetComponent<RectTransform>();
@@ -58,6 +63,17 @@ public class DraggableItem : MonoBehaviour,
             img.material = materialInstance;
             SetGlow(glowAcceptColor);
         }
+
+        if (materialInstance.HasProperty("_EnableGlow")) {
+            materialInstance.SetFloat("_EnableGlow", 1);  // turn on glow
+        }
+
+        if (materialInstance.HasProperty("_GlowColor")) {
+            materialInstance.SetColor("_GlowColor", glowAcceptColor); // apply initial color
+        }
+
+        if (stickyNoteIcon != null)
+            stickyNoteIcon.SetActive(false);
     }
 
     public void OnPointerEnter(PointerEventData eventData) {
@@ -65,18 +81,21 @@ public class DraggableItem : MonoBehaviour,
 
         if (tooltip && itemData != null)
             tooltip.ShowTooltip(itemData);
+
         SetGlow(glowHoverColor);
     }
 
     public void OnPointerExit(PointerEventData eventData) {
         if (tooltip)
             tooltip.HideTooltip();
+
         SetGlow(glowAcceptColor);
     }
 
 
     /* ©¤©¤ begin drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     public void OnBeginDrag(PointerEventData e) {
+        if (!allowDragging) return;
         isDragging = true;
 
         if (tooltip)
@@ -91,6 +110,7 @@ public class DraggableItem : MonoBehaviour,
 
     /* ©¤©¤ during drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     public void OnDrag(PointerEventData e) {
+        if (!allowDragging) return;
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(
                 rt, e.position, e.pressEventCamera, out var world)) {
             rt.position = world;
@@ -102,6 +122,7 @@ public class DraggableItem : MonoBehaviour,
 
     /* ©¤©¤ end drag ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     public void OnEndDrag(PointerEventData e) {
+        if (!allowDragging) return;
         isDragging = false;
 
         bool insideCase = FullyInsideSuitcase();
@@ -164,5 +185,33 @@ public class DraggableItem : MonoBehaviour,
     void SetGlow(Color c) {
         if (materialInstance != null)
             materialInstance.SetColor("_GlowColor", c); // Make sure "_GlowColor" is the right property
+    }
+
+    public bool TryAttachNote(DraggableNote note) {
+        if (hasNote) return false;
+
+        string newNoteText = note.inputField.text.Trim();
+        if (string.IsNullOrEmpty(newNoteText)) return false;
+
+        if (itemData != null) {
+            int slot = Random.Range(0, 3);
+            switch (slot) {
+                case 0: itemData.noteA = newNoteText; break;
+                case 1: itemData.noteB = newNoteText; break;
+                case 2: itemData.noteC = newNoteText; break;
+            }
+        }
+
+        if (stickyNoteIcon != null)
+            stickyNoteIcon.SetActive(true);
+
+        note.gameObject.SetActive(false);
+        note.inputField.interactable = false;
+        note.enabled = false;
+
+        hasNote = true;
+
+        StickyNoteController.Instance?.RegisterNoteAttachment();
+        return true;
     }
 }
