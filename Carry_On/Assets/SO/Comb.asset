@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Comb
   m_EditorClassIdentifier: 
   itemName: 
-  description: Other ones just don't feel quite right between the strands
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Other ones just don't feel quite right between the strands.
+  noteA: Used this before every school photo.
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gold Bracelet
   m_EditorClassIdentifier: 
   itemName: 
-  description: It's my zodiac carved with gold.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Wore this for luck before every flight.
+  noteA: It's my zodiac carved with gold.
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

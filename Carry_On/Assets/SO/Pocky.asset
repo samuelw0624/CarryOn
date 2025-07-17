@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pocky
   m_EditorClassIdentifier: 
   itemName: 
-  description: What?! I don't know if I can find them there.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Favourite snack on the road.
+  noteA: Add your thoughts...
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

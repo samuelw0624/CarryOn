@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Candy
   m_EditorClassIdentifier: 
   itemName: 
-  description: Slips them into mom's shopping list.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Favorite candy from childhood, hard to find now.
+  noteA: Slipped these  into mom's shopping list.
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

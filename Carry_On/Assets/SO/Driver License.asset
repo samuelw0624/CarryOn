@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Driver License
   m_EditorClassIdentifier: 
   itemName: 
-  description: Will it even be valid there..?
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Smirk of someone still learning.
+  noteA: ' I was so proud to show this off.'
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

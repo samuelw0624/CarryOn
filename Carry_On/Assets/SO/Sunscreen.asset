@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sunscreen
   m_EditorClassIdentifier: 
   itemName: 
-  description: Self care is the best practice.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Self care is the best care.
+  noteA: Add your thoughts...
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

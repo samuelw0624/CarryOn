@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
   m_Name: TAMA
   m_EditorClassIdentifier: 
-  itemName: TAMA
+  itemName: 
   description: The mametchi might need a shower..
   noteA: Add your thoughts...
   noteB: Add your thoughts...

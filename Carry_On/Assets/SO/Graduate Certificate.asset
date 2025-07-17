@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Graduate Certificate
   m_EditorClassIdentifier: 
   itemName: 
-  description: This defines me for better half of my life.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Folded but never forgotten.
+  noteA: This defines me for better half of my life.
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

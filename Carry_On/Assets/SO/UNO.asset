@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UNO
   m_EditorClassIdentifier: 
   itemName: 
-  description: Now this makes me popular at parties.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: A game that never fails to kick off the mood at parties.
+  noteA: Add your thoughts...
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

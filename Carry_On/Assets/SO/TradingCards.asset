@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
   m_Name: TradingCards
   m_EditorClassIdentifier: 
-  itemName: TradingCards
-  description: Memories old and new
+  itemName: 
+  description: Memories old and new.
   noteA: Add your thoughts...
   noteB: Add your thoughts...
   noteC: Add your thoughts...

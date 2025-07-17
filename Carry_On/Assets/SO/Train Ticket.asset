@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Train Ticket
   m_EditorClassIdentifier: 
   itemName: 
-  description: Trips I've been on.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Stubbed proof of something unforgettable.
+  noteA: Took this train alone, heart full and suitcase half-packed.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

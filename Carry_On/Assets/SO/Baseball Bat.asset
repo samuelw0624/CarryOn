@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Baseball Bat
   m_EditorClassIdentifier: 
   itemName: 
-  description: Is this allowed on the plane..
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Is this allowed on the plane...?
+  noteA: Add your thoughts..
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

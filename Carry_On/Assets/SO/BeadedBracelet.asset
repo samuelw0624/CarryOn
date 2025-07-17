@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
-  m_Name: Praying Mat
+  m_Name: BeadedBracelet
   m_EditorClassIdentifier: 
   itemName: 
-  description: Hand picked for clean knees.
-  noteA: Found comfort in this after long, unfamiliar days.
-  noteB: Add your thoughts...
-  noteC: Add your thoughts...
+  description: Counted through silence and stories.
+  noteA: Add your thoughts..
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

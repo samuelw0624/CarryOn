@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
   m_Name: HotSauce
   m_EditorClassIdentifier: 
-  itemName: HotSauce
+  itemName: 
   description: Flavour I cant find anywhere else.
-  noteA: Add your thoughts...
+  noteA: "Can\u2019t eat noodles without it."
   noteB: Add your thoughts...
   noteC: Add your thoughts...

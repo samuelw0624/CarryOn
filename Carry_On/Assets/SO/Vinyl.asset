@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Vinyl
   m_EditorClassIdentifier: 
   itemName: 
-  description: I know, I know...but I am bringing them.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Old grooves worn smooth by hands that knew exactly where to drop the
+    needle.
+  noteA: Played these on Sunday mornings while cleaning the whole house.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

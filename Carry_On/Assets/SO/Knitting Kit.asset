@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Knitting Kit
   m_EditorClassIdentifier: 
   itemName: 
-  description: Inherited this hobby after great grandmother.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Yarn, needles, and too many half-finished scarves.
+  noteA: Inherited this hobby after great grandmother.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

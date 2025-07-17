@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Baseball
   m_EditorClassIdentifier: 
   itemName: 
-  description: It's a special one.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Caught a home run from the local stadium.
+  noteA: Add your thoughts..
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

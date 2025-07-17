@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
   m_Name: RiceCooker
   m_EditorClassIdentifier: 
-  itemName: RiceCooker
-  description: The O'reliable
-  noteA: Add your thoughts...
+  itemName: 
+  description: Steam-stained lid from years of shared dinners.
+  noteA: This fed three generations without ever breaking.
   noteB: Add your thoughts...
   noteC: Add your thoughts...

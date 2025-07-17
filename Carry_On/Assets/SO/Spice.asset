@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spice
   m_EditorClassIdentifier: 
   itemName: 
-  description: A good spice goes hard with any food.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Good spice goes hard with any food.
+  noteA: "Smelled like my mom\u2019s kitchen after school."
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

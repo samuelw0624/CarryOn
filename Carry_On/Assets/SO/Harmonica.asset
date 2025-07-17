@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Harmonica
   m_EditorClassIdentifier: 
   itemName: 
-  description: If Bob Dylan carried these around, I can too.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Never mastered but always played.
+  noteA: If Bob Dylan carried these around, I can too.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

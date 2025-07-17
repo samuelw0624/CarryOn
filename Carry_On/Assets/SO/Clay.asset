@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Clay
   m_EditorClassIdentifier: 
   itemName: 
-  description: Heck they are heavy! The price for creativity..
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Heck they are heavy! The price for creativity...
+  noteA: Tried to make a mug, ended up with a lump instead.
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

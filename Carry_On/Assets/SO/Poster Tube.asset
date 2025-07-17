@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   description: 'Protect posters from harm. '
-  noteA: 
-  noteB: 
-  noteC: 
+  noteA: Add your thoughts...
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

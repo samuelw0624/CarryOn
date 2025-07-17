@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sweater
   m_EditorClassIdentifier: 
   itemName: 
-  description: Prickly, but knitted with love.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Stitched with care, stretched with time.
+  noteA: Grandma knitted this the winter I moved out.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

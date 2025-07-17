@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dog Collar
   m_EditorClassIdentifier: 
   itemName: 
-  description: I miss him.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Still jingles in quiet moments.
+  noteA: I miss him.
+  noteB: Add your thoughts..
+  noteC: Add your thoughts..

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
   m_Name: IPOD
   m_EditorClassIdentifier: 
-  itemName: IPOD
+  itemName: 
   description: With 4GB of storage! And built in Solitare.
   noteA: Add your thoughts...
   noteB: Add your thoughts...

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Medal
   m_EditorClassIdentifier: 
   itemName: 
-  description: Definitely one of my best moments.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: One of my proudest moments.
+  noteA: Add your thoughts...
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

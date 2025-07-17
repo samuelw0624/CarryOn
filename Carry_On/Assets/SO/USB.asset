@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: USB
   m_EditorClassIdentifier: 
   itemName: 
-  description: Losing this gives a literal heart attack.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Too old to use, too full to delete.
+  noteA: Found an old one in a drawer and laughed at what was still on it.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

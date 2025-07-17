@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ski Goggles
   m_EditorClassIdentifier: 
   itemName: 
-  description: Get out and touch grass!
-  noteA: 
-  noteB: 
-  noteC: 
+  description: The pair that conquered the first ski trip with you.
+  noteA: Lost these once on the hill, then found them under fresh snow.
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

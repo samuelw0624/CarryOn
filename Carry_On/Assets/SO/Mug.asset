@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mug
   m_EditorClassIdentifier: 
   itemName: 
-  description: Fingers crossed on not shattering them.
-  noteA: 
-  noteB: 
-  noteC: 
+  description: Favorite chipped corner, never replaced.
+  noteA: Add your thoughts...
+  noteB: Add your thoughts...
+  noteC: Add your thoughts...

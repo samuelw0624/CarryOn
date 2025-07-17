@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e7cd95372b23b4cbea9d496f9c86fe, type: 3}
   m_Name: Liquor
   m_EditorClassIdentifier: 
-  itemName: Liquor
-  description: A taste of once was
+  itemName: 
+  description: A taste of once was.
   noteA: Add your thoughts...
   noteB: Add your thoughts...
   noteC: Add your thoughts...
