@@ -171,9 +171,11 @@ public class DraggableItem : MonoBehaviour,
                 return true;
 
         // b) items already accepted in suitcase
-        foreach (var other in inSuitcase)
+        foreach (var other in inSuitcase) {
+            if (other == null) continue;
             if (poly.IsTouching(other))
                 return true;
+        }
 
         // c) rim blockers
         foreach (var rim in suitcase.rimBlocks)
@@ -213,5 +215,8 @@ public class DraggableItem : MonoBehaviour,
 
         StickyNoteController.Instance?.RegisterNoteAttachment();
         return true;
+    }
+    public static void ClearSuitcaseColliders() {
+        inSuitcase.Clear();
     }
 }

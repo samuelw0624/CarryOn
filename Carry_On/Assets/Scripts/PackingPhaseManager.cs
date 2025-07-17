@@ -34,6 +34,10 @@ public class PackingPhaseManager : MonoBehaviour {
             suitcase = suitcaseArea.GetComponent<RectTransform>();
     }
 
+    void Start() {
+        DraggableItem.ClearSuitcaseColliders();
+    }
+
     void Update() {
         if (!packingActive) return;
 
