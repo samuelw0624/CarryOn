@@ -7,8 +7,12 @@ public class SuitcaseArchive : MonoBehaviour {
     private List<List<PackedItem>> savedSuitcases = new List<List<PackedItem>>();
 
     void Awake() {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        if (Instance == null) {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); //Keeps this alive across scenes
+        } else {
+            Destroy(gameObject); //Avoid duplicates
+        }
     }
 
     public void SaveCurrentSuitcase(List<PackedItem> packedItems) {
