@@ -6,6 +6,9 @@ public class PackingPhaseManager : MonoBehaviour {
     [Header("UI")]
     [SerializeField] TMP_Text timerText;
     [SerializeField] Button proceedButton;
+    [SerializeField] GameObject confirmationPanel;
+    [SerializeField] Button readyButton;
+    [SerializeField] Button closeButton;
 
     [Header("Settings")]
     [SerializeField, Tooltip("Seconds")]
@@ -17,8 +20,13 @@ public class PackingPhaseManager : MonoBehaviour {
 
     void Awake() {
         timeLeft = startSeconds;
-        proceedButton.onClick.AddListener(EndPackingEarly);
         UpdateTimerUI();
+
+        proceedButton.onClick.AddListener(ShowConfirmationPanel);
+        readyButton.onClick.AddListener(EndPackingEarly); // uses the wrapper
+        closeButton.onClick.AddListener(HideConfirmationPanel);
+
+        confirmationPanel.SetActive(false);
 
         // NEW: grab the suitcase RectTransform
         var suitcaseArea = FindObjectOfType<SuitcaseArea>();
@@ -41,6 +49,14 @@ public class PackingPhaseManager : MonoBehaviour {
         int minutes = Mathf.FloorToInt(timeLeft / 60);
         int seconds = Mathf.FloorToInt(timeLeft % 60);
         timerText.text = $"{minutes:00}:{seconds:00}";
+    }
+
+    void ShowConfirmationPanel() {
+        confirmationPanel.SetActive(true);
+    }
+
+    void HideConfirmationPanel() {
+        confirmationPanel.SetActive(false);
     }
 
     void EndPackingEarly() => EndPacking();
