@@ -1294,8 +1294,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 809791722}
   allowDragging: 1
 --- !u!60 &59715856
@@ -2683,8 +2682,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1836151061}
   allowDragging: 1
 --- !u!60 &120514170
@@ -2960,8 +2958,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1312619220}
   allowDragging: 1
 --- !u!60 &137652204
@@ -3285,8 +3282,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1552456640}
   allowDragging: 1
 --- !u!60 &142243282
@@ -4093,8 +4089,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 635626364}
   allowDragging: 1
 --- !u!60 &159380405
@@ -4298,8 +4293,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1163996339}
   allowDragging: 1
 --- !u!60 &177744569
@@ -5104,8 +5098,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 268934941}
   allowDragging: 1
 --- !u!60 &202867456
@@ -5531,8 +5524,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1315421830}
   allowDragging: 1
 --- !u!60 &247596574
@@ -6346,8 +6338,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 486921555}
   allowDragging: 1
 --- !u!60 &278794506
@@ -6551,8 +6542,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 847593608}
   allowDragging: 1
 --- !u!60 &282638030
@@ -7003,8 +6993,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1175785176}
   allowDragging: 1
 --- !u!60 &308370279
@@ -7780,8 +7769,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1888345291}
   allowDragging: 1
 --- !u!60 &336098786
@@ -8105,8 +8093,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 800824230}
   allowDragging: 1
 --- !u!60 &361993373
@@ -8699,8 +8686,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1057221579}
   allowDragging: 1
 --- !u!60 &403158011
@@ -8921,8 +8907,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1846045943}
   allowDragging: 1
 --- !u!60 &403670610
@@ -9836,8 +9821,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1464417234}
   allowDragging: 1
 --- !u!60 &487996300
@@ -10082,8 +10066,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1435730917}
   allowDragging: 1
 --- !u!60 &489076675
@@ -10398,8 +10381,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1010910945}
   allowDragging: 1
 --- !u!60 &491975119
@@ -10569,8 +10551,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2000847453}
   allowDragging: 1
 --- !u!60 &498207960
@@ -11018,8 +10999,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1588772654}
   allowDragging: 1
 --- !u!60 &535424101
@@ -11226,8 +11206,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1224154947}
   allowDragging: 1
 --- !u!60 &539784481
@@ -11676,8 +11655,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1673153960}
   allowDragging: 1
 --- !u!60 &591694137
@@ -11881,8 +11859,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1967853721}
   allowDragging: 1
 --- !u!60 &593121289
@@ -12564,8 +12541,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 631817722}
   allowDragging: 1
 --- !u!60 &640940603
@@ -13013,8 +12989,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1497020622}
   allowDragging: 1
 --- !u!60 &647668812
@@ -13714,8 +13689,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 71019992}
   allowDragging: 1
 --- !u!60 &666904536
@@ -14279,8 +14253,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1149867277}
   allowDragging: 1
 --- !u!60 &692482355
@@ -14768,8 +14741,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2037515324}
   allowDragging: 1
 --- !u!60 &729926098
@@ -14935,8 +14907,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1909304972}
   allowDragging: 1
 --- !u!60 &742026808
@@ -15143,8 +15114,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 490437818}
   allowDragging: 1
 --- !u!60 &750906787
@@ -15712,8 +15682,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 371717030}
   allowDragging: 1
 --- !u!60 &780601801
@@ -16630,8 +16599,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1881788352}
   allowDragging: 1
 --- !u!60 &809849537
@@ -16877,8 +16845,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 436542713}
   allowDragging: 1
 --- !u!60 &821012215
@@ -17781,8 +17748,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 197524829}
   allowDragging: 1
 --- !u!60 &836615972
@@ -18097,8 +18063,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 349120743}
   allowDragging: 1
 --- !u!60 &877563634
@@ -18546,8 +18511,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 66276407}
   allowDragging: 1
 --- !u!60 &882120225
@@ -18760,8 +18724,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 918207118}
   allowDragging: 1
 --- !u!60 &896767195
@@ -19003,8 +18966,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2110086321}
   allowDragging: 1
 --- !u!60 &903949204
@@ -19528,8 +19490,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1104117086}
   allowDragging: 1
 --- !u!60 &936341579
@@ -20019,8 +19980,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 0}
   allowDragging: 1
 --- !u!60 &943234065
@@ -20659,8 +20619,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1614830142}
   allowDragging: 1
 --- !u!60 &969761113
@@ -22761,8 +22720,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 976273291}
   allowDragging: 1
 --- !u!60 &1093371958
@@ -23334,8 +23292,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1962416348}
   allowDragging: 1
 --- !u!60 &1111712558
@@ -24549,6 +24506,215 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3726143448820599483, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
   m_PrefabInstance: {fileID: 1163996337}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1166794353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1166794354}
+  - component: {fileID: 1166794361}
+  - component: {fileID: 1166794360}
+  - component: {fileID: 1166794359}
+  - component: {fileID: 1166794358}
+  - component: {fileID: 1166794357}
+  - component: {fileID: 1166794356}
+  - component: {fileID: 1166794355}
+  m_Layer: 5
+  m_Name: Item_Waterbottle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1166794354
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2007731652}
+  m_Father: {fileID: 1941135658}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -491.9, y: 183}
+  m_SizeDelta: {x: 46, y: 170}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1166794355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentShaderType: 0
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
+--- !u!114 &1166794356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af61de04e7f0094d9e539af066eab71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: 6df24956da449c04297220f075d29952, type: 2}
+  glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
+  glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
+  glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.15
+  stickyNoteIcon: {fileID: 2007731653}
+  allowDragging: 1
+--- !u!60 &1166794357
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  m_Points:
+    m_Paths:
+    - - {x: 22.567627, y: -79.39858}
+      - {x: 22.379465, y: 68.35226}
+      - {x: 16.61553, y: 73.76265}
+      - {x: -18.649216, y: 73.42939}
+      - {x: -22.064066, y: 68.5991}
+      - {x: -22.533775, y: 50.47374}
+      - {x: -22.131104, y: -81.22547}
+      - {x: -17.479588, y: -85.36787}
+      - {x: 19.039658, y: -84.73578}
+  m_UseDelaunayMesh: 0
+--- !u!50 &1166794358
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!225 &1166794359
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1166794360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 11368790}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8829e6f76a3a70b4b851c7280fce62fb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1166794361
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166794353}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1175785174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25629,8 +25795,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 965659793}
   allowDragging: 1
 --- !u!60 &1290178693
@@ -26788,8 +26953,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1287158061}
   allowDragging: 1
 --- !u!60 &1316390810
@@ -26997,8 +27161,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1074519828}
   allowDragging: 1
 --- !u!60 &1321654984
@@ -27205,8 +27368,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1104153988}
   allowDragging: 1
 --- !u!60 &1334574712
@@ -27765,8 +27927,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1934314558}
   allowDragging: 1
 --- !u!60 &1392633815
@@ -27973,8 +28134,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2016461732}
   allowDragging: 1
 --- !u!60 &1407227766
@@ -28423,8 +28583,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1271694478}
   allowDragging: 1
 --- !u!60 &1421830671
@@ -29104,8 +29263,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 214410761}
   allowDragging: 1
 --- !u!60 &1439099678
@@ -29704,8 +29862,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 139109328}
   allowDragging: 1
 --- !u!1001 &1464417232
@@ -30477,8 +30634,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 144601088}
   allowDragging: 1
 --- !u!60 &1504451056
@@ -31892,8 +32048,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 222679333}
   allowDragging: 1
 --- !u!60 &1587458173
@@ -33541,8 +33696,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1265399375}
   allowDragging: 1
 --- !u!60 &1646441947
@@ -34101,8 +34255,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1227136683}
   allowDragging: 1
 --- !u!60 &1711195396
@@ -34346,8 +34499,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1918966952}
   allowDragging: 1
 --- !u!60 &1715527473
@@ -34624,8 +34776,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1866699713}
   allowDragging: 1
 --- !u!60 &1723320419
@@ -34836,8 +34987,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2097014478}
   allowDragging: 1
 --- !u!60 &1732453374
@@ -35041,8 +35191,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2099253531}
   allowDragging: 1
 --- !u!60 &1749174724
@@ -35251,8 +35400,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1715682723}
   allowDragging: 1
 --- !u!60 &1784951696
@@ -35459,8 +35607,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 947499585}
   allowDragging: 1
 --- !u!60 &1797048901
@@ -35666,8 +35813,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1158234293}
   allowDragging: 1
 --- !u!60 &1797685347
@@ -36204,8 +36350,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 673901003}
   allowDragging: 1
 --- !u!60 &1850082292
@@ -36524,8 +36669,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1529914134}
   allowDragging: 1
 --- !u!60 &1873463130
@@ -37084,8 +37228,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1051240053}
   allowDragging: 1
 --- !u!60 &1886373942
@@ -38616,6 +38759,7 @@ RectTransform:
   - {fileID: 729926094}
   - {fileID: 489076671}
   - {fileID: 821012211}
+  - {fileID: 1166794354}
   m_Father: {fileID: 1939407400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -39110,8 +39254,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1846985904}
   allowDragging: 1
 --- !u!60 &1961742232
@@ -39783,8 +39926,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1179100687}
   allowDragging: 1
 --- !u!60 &1991541744
@@ -40292,6 +40434,117 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3726143448820599483, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
   m_PrefabInstance: {fileID: 2000847451}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2007731651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1166794354}
+    m_Modifications:
+    - target: {fileID: 3726143448820599483, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_Name
+      value: MiniNote
+      objectReference: {fileID: 0}
+    - target: {fileID: 3726143448820599483, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 37.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 25.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 52.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 27.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+--- !u!224 &2007731652 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8909308974090075515, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+  m_PrefabInstance: {fileID: 2007731651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2007731653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3726143448820599483, guid: aff9b0591f5366948b301a2e47102af7, type: 3}
+  m_PrefabInstance: {fileID: 2007731651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2010995273
 GameObject:
   m_ObjectHideFlags: 0
@@ -40351,8 +40604,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 991370055}
   allowDragging: 1
 --- !u!60 &2010995276
@@ -40667,8 +40919,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1430626897}
   allowDragging: 1
 --- !u!60 &2027543792
@@ -40914,8 +41165,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 1367874842}
   allowDragging: 1
 --- !u!60 &2029312602
@@ -41436,8 +41686,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 758656739}
   allowDragging: 1
 --- !u!60 &2065911845
@@ -42224,8 +42473,7 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
-  baseDragResistance: 0.543
-  maxDragSpeed: 2000
+  baseDragResistance: 0.15
   stickyNoteIcon: {fileID: 2135442587}
   allowDragging: 1
 --- !u!60 &2119499458
@@ -42686,15 +42934,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4107303730726973142, guid: d9095a64b8f1d234b8947f6564e0ca45, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.21923745
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4107303730726973142, guid: d9095a64b8f1d234b8947f6564e0ca45, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.138449
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4107303730726973142, guid: d9095a64b8f1d234b8947f6564e0ca45, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 514.95703
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4107303730726973142, guid: d9095a64b8f1d234b8947f6564e0ca45, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42900,7 +43148,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 123309906494668066, guid: 2bac3ff4ad345df40ba19e19e4410c89, type: 3}
       propertyPath: baseDragResistance
-      value: 0.834
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 148364629505349563, guid: 2bac3ff4ad345df40ba19e19e4410c89, type: 3}
       propertyPath: m_Pivot.x

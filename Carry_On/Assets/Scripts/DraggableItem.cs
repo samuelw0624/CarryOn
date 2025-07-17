@@ -31,7 +31,7 @@ public class DraggableItem : MonoBehaviour,
     [Header("Drag Settings")]
     [Range(0f, 1f)]
     [SerializeField] float baseDragResistance = 0.2f; // starting resistance
-    public float maxDragSpeed = 2000f; // tweak this
+    //public float maxDragSpeed = 2000f; // tweak this
 
     float dragResistance; // actual runtime value, adjusted per item
 
@@ -80,7 +80,7 @@ public class DraggableItem : MonoBehaviour,
         }
 
         int picks = ItemPickTracker.GetPickCount(itemData);
-        float extraResistance = Mathf.Clamp01(picks * 0.05f); // adjust scale as needed
+        float extraResistance = Mathf.Clamp01(picks * 0.1f); // adjust scale as needed
         dragResistance = Mathf.Clamp(baseDragResistance + extraResistance, 0f, 0.95f);
 
         if (stickyNoteIcon != null)
@@ -124,10 +124,10 @@ public class DraggableItem : MonoBehaviour,
         if (!allowDragging) return;
 
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(
-        rt, e.position, e.pressEventCamera, out var world)) {
-
-            float speed = maxDragSpeed * (1f - dragResistance); // dragResistance=1 ¡ú speed=0
-            rt.position = Vector3.MoveTowards(rt.position, world, speed * Time.deltaTime);
+            rt, e.position, e.pressEventCamera, out var world)) {
+            Vector3 currentPos = rt.position;
+            Vector3 newPos = Vector3.Lerp(currentPos, world, 1f - dragResistance);
+            rt.position = newPos;
         }
 
         bool overlaps = OverlapsAnything();
