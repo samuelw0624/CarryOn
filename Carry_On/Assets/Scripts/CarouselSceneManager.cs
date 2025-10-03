@@ -56,32 +56,31 @@ public class CarouselSceneManager : MonoBehaviour {
     }
 
     public void ShowSuitcase(List<PackedItem> suitcase) {
-        if (panelRoot != null)
-            panelRoot.SetActive(true);
+        if (panelRoot != null) panelRoot.SetActive(true);
 
-        foreach (Transform child in displayArea)
-            Destroy(child.gameObject);
-
-        if (suitcase == null || suitcase.Count == 0) {
-            Debug.Log("No suitcase data to show. Displaying empty suitcase.");
-            return;
-        }
+        foreach (Transform child in displayArea) Destroy(child.gameObject);
+        if (suitcase == null || suitcase.Count == 0) return;
 
         foreach (var packed in suitcase) {
             GameObject item = Instantiate(itemPrefab, displayArea);
-            RectTransform rt = item.GetComponent<RectTransform>();
-            rt.localPosition = packed.localposition;
+
+            var rt = item.GetComponent<RectTransform>();
+            rt.anchoredPosition = (Vector2)packed.localposition; // better than localPosition for UI
             rt.sizeDelta = packed.sizeDelta;
+            item.transform.SetAsLastSibling();                   // ensure on top for raycast
 
-            Image img = item.GetComponent<Image>();
-            if (img != null)
-                img.sprite = packed.sprite;
+            var img = item.GetComponent<Image>();
+            if (img) img.sprite = packed.sprite;
 
-            if (item.TryGetComponent(out CanvasGroup cg))
-                cg.blocksRaycasts = false;
+            // Keep raycasts ON so hover works
+            var cg = item.GetComponent<CanvasGroup>();
+            if (cg) { cg.blocksRaycasts = true; cg.interactable = false; } // optional
 
-            if (item.TryGetComponent(out DraggableItem di))
-                Destroy(di);
+            var di = item.GetComponent<DraggableItem>();
+            if (di) {
+                di.itemData = packed.itemDef;   // same as your working scene
+                di.allowDragging = false;         // disable dragging here
+            }
         }
     }
 

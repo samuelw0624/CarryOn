@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6555222341867864635}
   - component: {fileID: 8663278562734017089}
   - component: {fileID: 8538767475018146793}
+  - component: {fileID: -7257618598204868414}
   - component: {fileID: 4238786258959568425}
   m_Layer: 5
   m_Name: ItemPrefab
@@ -186,8 +187,21 @@ MonoBehaviour:
   glowRejectColor: {r: 0.9, g: 0, b: 0, a: 1}
   glowHoverColor: {r: 0.25, g: 0.25, b: 0, a: 1}
   glowAcceptColor: {r: 0, g: 0, b: 0, a: 0}
+  baseDragResistance: 0.2
   stickyNoteIcon: {fileID: 114540754984981997}
   allowDragging: 0
+--- !u!114 &-7257618598204868414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818211687334012003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f2ea330a442f846b92e600303780b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4238786258959568425
 MonoBehaviour:
   m_ObjectHideFlags: 0
