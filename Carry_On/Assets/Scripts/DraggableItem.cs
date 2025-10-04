@@ -233,4 +233,13 @@ public class DraggableItem : MonoBehaviour,
     public static void ClearSuitcaseColliders() {
         inSuitcase.Clear();
     }
+
+    public string GetCurrentNoteText() {
+        // pick whichever field you used; fallback chain is fine
+        if (itemData == null) return null;
+        if (!string.IsNullOrWhiteSpace(itemData.noteA)) return itemData.noteA;
+        if (!string.IsNullOrWhiteSpace(itemData.noteB)) return itemData.noteB;
+        if (!string.IsNullOrWhiteSpace(itemData.noteC)) return itemData.noteC;
+        return null;
+    }
 }
