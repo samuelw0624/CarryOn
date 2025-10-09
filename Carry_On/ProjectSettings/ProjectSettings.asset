@@ -722,8 +722,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Carry_On
-  metroPackageVersion: 
+  metroPackageName: CarryOn
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -731,7 +731,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Carry_On
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Carry_On
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

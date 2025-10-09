@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class StickyNoteController : MonoBehaviour {
     public static StickyNoteController Instance;
@@ -17,9 +18,8 @@ public class StickyNoteController : MonoBehaviour {
     [Header("UI")]
     public GameObject readyToBoardButton;
 
-    [Header("Note Tracking")]
-    [SerializeField] private int totalNotes = 5;
-    private int notesAttached = 0;
+    private readonly HashSet<DraggableItem> coveredItems = new HashSet<DraggableItem>();
+    private int notesSpawned = 0; // actual count of notes created at runtime
 
     void Awake() {
         // Singleton pattern
@@ -32,20 +32,26 @@ public class StickyNoteController : MonoBehaviour {
 
     void Start() {
         SpawnAndStyleNotes();
+        EvaluateReadyState(); // handles edge cases
     }
 
     private void SpawnAndStyleNotes() {
-        foreach (GameObject point in spawnPoints) {
-            if (point == null) continue;
+        notesSpawned = 0;
 
-            RectTransform pointRect = point.GetComponent<RectTransform>();
-            if (pointRect == null) continue;
+        if (spawnPoints == null || canvasRoot == null || stickyNotePrefab == null) return;
 
-            GameObject note = Instantiate(stickyNotePrefab, canvasRoot);
-            RectTransform noteRect = note.GetComponent<RectTransform>();
+        foreach (var point in spawnPoints) {
+            if (!point) continue;
+
+            var pointRect = point.GetComponent<RectTransform>();
+            if (!pointRect) continue;
+
+            var note = Instantiate(stickyNotePrefab, canvasRoot);
+            var noteRect = note.GetComponent<RectTransform>();
             noteRect.anchoredPosition = pointRect.anchoredPosition;
 
             ApplyRandomStyle(note);
+            notesSpawned++;
         }
     }
 
@@ -77,12 +83,31 @@ public class StickyNoteController : MonoBehaviour {
     }
 
     //Called when a note is successfully attached
-    public void RegisterNoteAttachment() {
-        notesAttached++;
-        if (notesAttached >= totalNotes && readyToBoardButton != null) {
-            readyToBoardButton.SetActive(true);
+    public void RegisterItemCovered(DraggableItem item) {
+        if (!item) return;
+
+        // HashSet guarantees uniqueness; no double counting if user tries to re-fire.
+        if (coveredItems.Add(item)) {
+            EvaluateReadyState();
         }
     }
+    private void EvaluateReadyState() {
+        int itemCount =
+            (SuitcaseData.Instance != null && SuitcaseData.Instance.packedItems != null)
+            ? SuitcaseData.Instance.packedItems.Count
+            : 0;
+
+        // If spawnPoints is null, treat as 0 notes; otherwise use notes actually spawned.
+        int noteCount = Mathf.Max(0, notesSpawned);
+
+        // The goal is: cover every item if there are fewer items than notes,
+        // or use all notes if there are more items than notes.
+        int threshold = Mathf.Min(itemCount, noteCount);
+
+        bool ready = (threshold > 0) && (coveredItems.Count >= threshold);
+        if (readyToBoardButton) readyToBoardButton.SetActive(ready);
+    }
+
     public void LoadCarouselScene() {
         if (SceneLoader.Instance != null)
             SceneLoader.Instance.LoadScene("CarouselScene");

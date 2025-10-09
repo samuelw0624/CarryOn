@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 169658393}
   - component: {fileID: 169658394}
   m_Layer: 0
-  m_Name: 2A357F83ADCF092DF02DCA29AEAF37D6
+  m_Name: ForegroundPlant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 358886755}
   - component: {fileID: 358886756}
   m_Layer: 0
-  m_Name: EABF75BA5CB84E717E7B87F641E07F39
+  m_Name: BGPlant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1488,6 +1488,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 05b38f7bf282ea54d8244d6cf81bcc1a, type: 3}
   - def: {fileID: 11400000, guid: 6df24956da449c04297220f075d29952, type: 2}
     sprite: {fileID: 21300000, guid: 8829e6f76a3a70b4b851c7280fce62fb, type: 3}
+  foregroundPlant: {fileID: 169658392}
 --- !u!4 &816183650
 Transform:
   m_ObjectHideFlags: 0

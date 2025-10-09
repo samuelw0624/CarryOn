@@ -44,6 +44,8 @@ public class CarouselSceneManager : MonoBehaviour {
     [Serializable] class CloudRow { public SuitcaseDTO payload; public string created_at; public string id; }
     [Serializable] class CloudRowsWrapper { public CloudRow[] rows; }
 
+    public GameObject foregroundPlant;
+
     void Start() {
         // Build lookup once
         catalogLookup = new Dictionary<string, ItemCatalogEntry>();
@@ -216,6 +218,7 @@ public class CarouselSceneManager : MonoBehaviour {
     //  (b) apply downloaded note text onto itemData for tooltip/labels
     public void ShowSuitcase(List<PackedItem> suitcase) {
         if (panelRoot != null) panelRoot.SetActive(true);
+        foregroundPlant.SetActive(false);
 
         foreach (Transform child in displayArea) Destroy(child.gameObject);
         if (suitcase == null || suitcase.Count == 0) return;
@@ -257,5 +260,6 @@ public class CarouselSceneManager : MonoBehaviour {
     public void HideDisplayPanel() {
         if (panelRoot != null)
             panelRoot.SetActive(false);
+        foregroundPlant.SetActive(true);
     }
 }

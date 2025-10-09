@@ -227,7 +227,7 @@ public class DraggableItem : MonoBehaviour,
 
         hasNote = true;
 
-        StickyNoteController.Instance?.RegisterNoteAttachment();
+        StickyNoteController.Instance?.RegisterItemCovered(this);
         return true;
     }
     public static void ClearSuitcaseColliders() {
