@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System;
 
 [RequireComponent(typeof(RectTransform))]
 [RequireComponent(typeof(PolygonCollider2D))]
@@ -214,37 +215,63 @@ public class DraggableItem : MonoBehaviour,
         string newNoteText = note.inputField.text.Trim();
         if (string.IsNullOrEmpty(newNoteText)) return false;
 
-        if (itemData != null) {
-            int slot = Random.Range(0, 3);
-            switch (slot) {
-                case 0: itemData.noteA = newNoteText; break;
-                case 1: itemData.noteB = newNoteText; break;
-                case 2: itemData.noteC = newNoteText; break;
-            }
-        }
+        // Local snapshot of empties
+        bool aEmpty = string.IsNullOrWhiteSpace(itemData.noteA);
+        bool bEmpty = string.IsNullOrWhiteSpace(itemData.noteB);
+        bool cEmpty = string.IsNullOrWhiteSpace(itemData.noteC);
 
-        if (stickyNoteIcon != null)
-            stickyNoteIcon.SetActive(true);
+        // Tentative local choice for immediate UI feedback: first empty if any; otherwise we¡¯ll let server pick oldest and then mirror.
+        int localChosen = aEmpty ? 0 : (bEmpty ? 1 : (cEmpty ? 2 : -1));
 
+        // Apply the tentative write locally (only if we actually found an empty slot)
+        if (localChosen == 0) itemData.noteA = newNoteText;
+        else if (localChosen == 1) itemData.noteB = newNoteText;
+        else if (localChosen == 2) itemData.noteC = newNoteText;
+
+        // Visuals: show the sticky icon and retire the dragged note UI
+        if (stickyNoteIcon) stickyNoteIcon.SetActive(true);
         note.gameObject.SetActive(false);
         note.inputField.interactable = false;
         note.enabled = false;
 
-        hasNote = true;
-
         StickyNoteController.Instance?.RegisterItemCovered(this);
+
+        // Permanent upsert to canonical store (prefer empty; if full, server overwrites the oldest slot)
+        string editor = PlayerPrefs.GetString("PLAYER_ID", string.Empty);
+        if (!Guid.TryParse(editor, out _)) {
+            editor = Guid.NewGuid().ToString();
+            PlayerPrefs.SetString("PLAYER_ID", editor);
+        }
+        CoroutineRunner.Run(ItemNotesCloud.UpsertChoosingSlot(
+            itemData.ItemID,
+            newNoteText,
+            editor,
+            aEmpty, bEmpty, cEmpty,
+            (chosenSlot, ok, err) => {
+                if (!ok) {
+                    Debug.LogError("[Carry-On] Upsert note failed: " + err);
+                    return; // keep local tentative state rather than reverting UX
+            }
+
+            // Mirror the authoritative slot locally. If server chose a different slot (full case), move the note there.
+            if (chosenSlot != localChosen && localChosen != -1) {
+                // Clear the tentative slot we filled locally
+                if (localChosen == 0) itemData.noteA = string.Empty;
+                    else if (localChosen == 1) itemData.noteB = string.Empty;
+                    else if (localChosen == 2) itemData.noteC = string.Empty;
+                }
+
+            // Write into the authoritative slot (covers both full and empty cases)
+            if (chosenSlot == 0) itemData.noteA = newNoteText;
+                else if (chosenSlot == 1) itemData.noteB = newNoteText;
+                else if (chosenSlot == 2) itemData.noteC = newNoteText;
+            }
+        ));
+
+        hasNote = true;
         return true;
     }
     public static void ClearSuitcaseColliders() {
         inSuitcase.Clear();
-    }
-
-    public string GetCurrentNoteText() {
-        // pick whichever field you used; fallback chain is fine
-        if (itemData == null) return null;
-        if (!string.IsNullOrWhiteSpace(itemData.noteA)) return itemData.noteA;
-        if (!string.IsNullOrWhiteSpace(itemData.noteB)) return itemData.noteB;
-        if (!string.IsNullOrWhiteSpace(itemData.noteC)) return itemData.noteC;
-        return null;
     }
 }

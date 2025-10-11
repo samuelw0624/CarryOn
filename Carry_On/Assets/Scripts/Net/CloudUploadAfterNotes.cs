@@ -40,7 +40,6 @@ public class CloudUploadAfterNotes : MonoBehaviour {
                 y = rt.anchoredPosition.y,
                 w = rt.sizeDelta.x,
                 h = rt.sizeDelta.y,
-                note = di.GetCurrentNoteText()  // captures sticky-note text
             });
         }
 
