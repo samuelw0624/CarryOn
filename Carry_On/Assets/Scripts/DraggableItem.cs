@@ -43,6 +43,9 @@ public class DraggableItem : MonoBehaviour,
     bool isDragging = false;
     public bool allowDragging = true;
 
+    public AudioClip pickupSFX;
+    AudioSource myAudiosouece;
+
     /* ©¤©¤ setup ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤ */
     void Awake() {
         rt = GetComponent<RectTransform>();
@@ -61,6 +64,7 @@ public class DraggableItem : MonoBehaviour,
             img.alphaHitTestMinimumThreshold = 0.1f; // Ignore transparent clicks
     }
     void Start() {
+        myAudiosouece = GetComponent<AudioSource>();
         if (tooltip == null)
             tooltip = FindObjectOfType<TooltipController>();
 
@@ -108,6 +112,7 @@ public class DraggableItem : MonoBehaviour,
     public void OnBeginDrag(PointerEventData e) {
         if (!allowDragging) return;
         isDragging = true;
+        myAudiosouece.PlayOneShot(pickupSFX); 
 
         if (tooltip)
             tooltip.HideTooltip(); // hide immediately if showing
